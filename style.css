@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #333;
+}
+
+.hours, .minutes, .seconds {
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #4CAF50; /* Green color */
+    margin: 0 10px; /* Add spacing between time elements */
+    transition: color 0.3s ease;
+}
+
+.hours {
+    color: #2196F3; /* Blue color */
+}
+
+.minutes {
+    color: #FF5722; /* Orange color */
+}
+
+.seconds {
+    color: #9C27B0; /* Purple color */
+}
+
